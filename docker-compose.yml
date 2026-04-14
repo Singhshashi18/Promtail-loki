@@ -10,7 +10,7 @@ services:
       - ./loki/wal:/wal
     command: -config.file=/etc/loki/config.yaml
 
-  promtail:
+  promtail: 
     image: grafana/promtail:latest
     container_name: promtail
     volumes:
