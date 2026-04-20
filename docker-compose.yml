@@ -1,6 +1,6 @@
 version: '3.8'
 services:
-  loki:
+  loki: 
     image: grafana/loki:latest
     container_name: loki
     ports:
